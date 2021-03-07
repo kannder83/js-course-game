@@ -1,0 +1,86 @@
+:root {
+  --color-one: #006d77;
+  --color-two: #83c5be;
+  --color-three: #edf6f9;
+  --color-four: #ffddd2;
+  --color-five: #e29578;
+  --color-black: #191919;
+  --color-white: #fafafa;
+  --color--gray: #5f5f5f;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: var(--color-three);
+}
+
+.main {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(var(--color-three), var(--color-two));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.class-container {
+  width: 300px;
+  min-height: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(var(--color-four), var(--color-five));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+.class-container h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.class-container ul {
+  width: 100%;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.class-container ul li {
+  width: inherit;
+  min-height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.class-container ul li a {
+  width: 100%;
+  padding: 5px;
+  color: var(--color-black);
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.class-container ul li a:hover {
+  color: var(--color--gray);
+  background: linear-gradient(var(--color-three), var(--color-four));
+  border-bottom: 3px solid var(--color-five);
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  background-color: var(--color-two);
+}

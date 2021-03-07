@@ -1,0 +1,38 @@
+.compra {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: linear-gradient(var(--color-four), var(--color-five));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+.compra button {
+  width: 80%;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+  outline: none;
+  border: 2px solid var(--color-white);
+  border-radius: 6px;
+}
+
+.compra button:hover {
+  color: var(--color-three);
+  background-color: var(--color-black);
+}
+
+.inventario {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+
+  border-radius: 10px;
+  background: linear-gradient(var(--color-three), var(--color-four));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
